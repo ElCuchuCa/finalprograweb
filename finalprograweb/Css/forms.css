@@ -1,0 +1,200 @@
+/* General */
+
+.valid-border {
+    border: 2px solid green;
+  }
+  
+  .invalid-border {
+    border: 2px solid red;
+  }
+  .valid-color {
+    color: green;
+  }
+  
+  .invalid-color {
+    color: red;
+  }
+  
+  .is-valid {
+    z-index: 20;
+    font-family: SF New Republic;
+    font-size: 12px;
+    float:left;
+    display: block;
+  }
+  
+  .close-btn {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close-btn:hover {
+    color: red;
+  }
+  
+  .form-icnlabel{
+    display: flex;
+    align-items: center;
+    color:black;
+    font-family:SF New Republic;
+    font-size: 15px;
+    align-items: center;
+    user-select: none;
+  }
+  
+  .form-input {
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 2px 0;
+  }
+  
+  .form-input input {
+    font-family: SF New Republic;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  .gray-border {
+    border: 2px solid #ccc;
+  }
+  
+  .btn {
+    font-family: SF New Republic;
+    width: 90%;
+    margin:0 auto;
+    background-color: #3f00ac;
+    display:block;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  /* Login form */
+  
+  
+  #login-box {
+    position: fixed;
+    width: 80%;
+    height: 80%;
+    min-height: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #eeeeee;
+    color: white;
+    border: 2px solid #ccc;
+    z-index: 20;
+    text-align: center;
+    opacity: 0.95;
+    overflow: scroll;
+    display: none;
+  }
+  
+  #login-box h1 {
+    font-family: SF New Republic;
+    font-size: 40px;
+    border-bottom: 6px solid #3f00ac;
+    padding: 13px;
+    letter-spacing: 2px;
+    color: black;
+    text-transform: uppercase;
+  }
+  
+  #login-box a {
+    font-family: SF New Republic;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin: 5px;
+  }
+  
+  #login-box a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Register form */
+  
+  #register-box {
+    display: none;
+    position: fixed;
+    width: 60%;
+    height: 80%;
+    min-height: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #eeeeee;
+    color: white;
+    border: 2px solid #ccc;
+    z-index: 20;
+    text-align: center;
+    opacity: 0.95;
+    overflow: scroll;
+  }
+  
+  #register-box h1 {
+    font-family: SF New Republic;
+    font-size: 40px;
+    border-bottom: 6px solid #3f00ac;
+    padding: 13px;
+    letter-spacing: 2px;
+    color: black;
+    text-transform: uppercase;
+  }
+  
+  #register-box a {
+    font-family: SF New Republic;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin: 10px;
+  }
+  
+  #register-box a:hover {
+    text-decoration: underline;
+  }
+  
+  .eye{
+    float:right;
+    position: relative;
+    bottom:46px;
+    right:5px;
+    padding: 5px;
+    border: 0.5px solid grey;
+    align-items: center;
+  }
+  
+  #hide1{
+    margin: 0 auto;
+    color:black;
+    cursor:pointer;
+  }
+  
+  #hide2{
+    margin: 0 auto;
+    color:black;
+    cursor:pointer;
+  }

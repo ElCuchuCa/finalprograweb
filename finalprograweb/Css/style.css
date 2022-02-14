@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #c47654;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 1000px;
+  width: 100%;
+  height: 100%;
+}
+/* Nav-bar */
+
+#navegation-bar ul {
+  list-style: none;
+  background-color: #3b2600;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+}
+
+#navegation-bar li {
+  display: inline-block;
+}
+#navegation-bar a {
+  color: white;
+  outline: none;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  padding: 15px;
+  left: 0px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+#navegation-bar a:hover {
+  color: rgb(243, 255, 139);
+}
+
+#navegation-bar ul li ul li {
+  display: none;
+}
+
+#navegation-bar ul li:hover ul li {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3b2600;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: #3b2600;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3b2600;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #634204;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Header */
+
+#header {
+  background-color: #0f0f0f;
+  width: 100%;
+  height: 100px;
+  position: sticky;
+  z-index: 20;
+  top: 0;
+  flex: 0 0 auto;
+}
+
+#header #logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#header h1 a {
+  font-family: "SF New Republic";
+  outline: none;
+  letter-spacing: 30px;
+  text-decoration: none;
+  color: white;
+  user-select: none;
+  /*transition: 2s;*/
+  cursor: pointer;
+}
+
+#separate-header-items {
+
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 50%;
+  float: right;
+  margin: 0 50px;
+  transform: translateY(-50%);
+}
+
+footer {
+  width: 100%;
+  background: #202020;
+  color: white;
+  font-family: CaviarDreams;
+}
+
+.container-footer-all {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+}
+
+.container-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.part1 {
+  max-width: 400px;
+}
+
+/* Enter account */
+#s-lg-buy {
+  margin: 0px 40px;
+  display: inline-block;
+}
+
+#s-lg-buy button{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "BebasNeue-Regular";
+  font-size: 20px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#s-lg-buy button:hover {
+  color: #dedede;
+  transition: 1s;
+  outline: none;
+}
